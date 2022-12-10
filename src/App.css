@@ -1,38 +1,65 @@
-.App {
+.technical__task .step {
+  background: #D5E8D4 !important;
+  color: #4c4e4f;
+  font-size: 14px;
   text-align: center;
+  padding: 3px 0px;
+  border-radius: 6px;
+  border: 2px solid #d4dad4;
+  width: 50%;
+}
+.technical__task .form__label {
+  background: #FFE6CC !important;
+  color: #4c4e4f;
+  font-size: 14px;
+  text-align: center;
+  padding: 3px 0px;
+  border-radius: 6px;
+  border: 2px solid #f6d8ba;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.technical__task .form__all__check {
+  background: #FFE6CC !important;
+  color: #4c4e4f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.technical__task .form__output {
+  background: #E1D5E7;
+  color: #4c4e4f;
+  border: 2px solid #c7bacd;
+  border-radius: 4px;
+  padding: 0px 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.technical__task .form-control-sm {
+  background: #e3e8ee !important;
+  color: #4c4e4f;
 }
 
-.App-link {
-  color: #61dafb;
+.technical__task .form-control:focus,
+.technical__task .form-select-sm:focus {
+  border-color: #e3e8ee !important;
+  box-shadow: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.technical__task .btn__contact {
+  background: #0057D8;
+  border-radius: 8px;
+  padding: 6px 30px;
+  color: white !important;
+}
+
+.technical__task .btn__contact:hover {
+  background: #0057D8;
+  color: white !important;
+}
+
+.technical__task .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.technical__task .form-check-input:focus {
+  box-shadow: none;
 }
